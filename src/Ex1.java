@@ -40,7 +40,7 @@ public class Ex1 {
 				System.out.println(art);
 			}
 			
-			// Requête INSERT avec prepared statement
+			// Requête INSERT avec prepared statement --> permet d'éviter les injections SQL
 			Article newArt = new Article();
 			newArt.setDescription("Epée");
 			newArt.setBrand("Durandil");
